@@ -1,0 +1,212 @@
+.cartBox__section{
+    flex-direction: column;
+    align-items: center;
+}
+.cartBox__section h3{
+    font-family: 'Inter SemiBold';
+    font-size: 21px;
+    line-height: normal;
+}
+.wrapper__div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 100px;
+    border-top: 2px solid #000;
+
+}
+
+.block__div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 960px;
+    height: 90px;
+    align-items: center;
+}
+.up__div{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 680px;
+    align-items: center;
+}
+.up__div img{
+    width: 80px;
+    height: 80px;
+}
+.up__div h3{
+    font-family: 'Inter Medium';
+font-size: 15px;
+display: flex;
+align-items: center;
+margin-left: 20px;
+width: 180px;
+height: 80px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.up__div p{
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.down__div{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 60px;
+
+}
+.down__div p{
+    font-family: 'Inter Medium';
+    font-size: 16px;
+    line-height: 1.2;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+}
+.button{
+    margin-left: 40px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background: linear-gradient(90deg, rgba(54,45,196,1) 0%, rgba(43,107,215,1) 17%, rgba(0,142,255,1) 68%);
+    font-family: 'Inter Medium';
+    font-size: 14px;
+    color: #fff;
+}
+
+.lost__p {
+    font-family: 'Inter Bold';
+    font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .cartBox__section{
+        flex-direction: column;
+        align-items: center;
+        width: 768px;
+    }
+    .cartBox__section h3{
+        font-family: 'Inter SemiBold';
+        font-size: 21px;
+        line-height: normal;  
+    }
+    .wrapper__div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        width: 740px;
+        height: 150px;
+        border-top: 2px solid #000;
+    
+    }
+
+
+    .block__div{
+        display: flex;
+        flex-direction: row;
+        margin-top: 6px;
+        margin-left: 0px;
+        width: 740px;
+        height: 140px;
+        align-items: center;
+    }
+    .up__div{
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        height: 140px;
+        width: 680px;
+        align-items: center;
+    }
+    .up__div img{
+        width: 80px;
+        height: 80px;
+    }
+    .up__div h3{
+        font-family: 'Inter Medium';
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 150px;
+    height: 90px;
+    }
+    .up__div p{
+        font-family: 'Inter Regular';
+        font-size: 14px;
+        line-height: 1.2;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 360px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .down__div{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 120px;
+        align-items: center;
+    
+    }
+    .down__div p{
+        font-family: 'Inter Medium';
+        font-size: 16px;
+        line-height: 1.2;
+        margin: 0;
+       
+    }
+    .button{
+        outline: 0;
+        border: none;
+        cursor: pointer;
+        border-radius: 7px;
+        background: linear-gradient(90deg, rgba(54,45,196,1) 0%, rgba(43,107,215,1) 17%, rgba(0,142,255,1) 68%);
+        font-family: 'Inter Medium';
+        font-size: 14px;
+        color: #fff;
+        width: 120px;
+        height: 40px;
+        margin-left: 0px;
+}
+    
+    
+    .lost__p {
+        font-family: 'Inter Bold';
+        font-size: 28px;
+    }
+    
+    
+}

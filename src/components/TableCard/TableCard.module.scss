@@ -1,0 +1,21 @@
+.wrapper__div{
+    display: grid;
+    margin-top: 40px;
+    margin-left: 10px;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper__div{
+        display: grid;
+        margin-top: 40px;
+        margin-left: 10px;
+        grid-template-rows: repeat(2, 400px);
+        grid-template-columns: repeat(2, 370px);
+        row-gap: 20px;
+        column-gap: 15px;
+    }
+}

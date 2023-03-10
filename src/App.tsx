@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import {Routes, Route} from 'react-router-dom'
+import MainPage from  './components/MainPage/MainPage';
+import ExzamplePage from './components/ExzamplePage/ExzamplePage';
+import FormRegistration from './components/FormRegistration/FormRegistration';
+import SliderComponent from './components/SliderComponent/SliderComponent';
+import ShoppingComponent from './components/ShoppingComponent/ShoppingComponent';
+import CartBox from './components/CartBox/CartBox';
+import styles from './App.module.scss';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className={styles.App__div}>
+   <Routes>
+   <Route path='/' element={<MainPage/>}/>
+    <Route path='Главная' element={<MainPage/>}/>
+    <Route path='Примеры работ' element={<ExzamplePage/>}/>
+    <Route path='Регистрация' element={<FormRegistration/>}/>
+    <Route path='Слайдер' element={<SliderComponent/>}/>
+    <Route path='Выбор товара' element={<ShoppingComponent/>}/>
+    <Route path='Корзина' element={<CartBox/>}/>
+   </Routes>
+   </div>
   );
 }
 

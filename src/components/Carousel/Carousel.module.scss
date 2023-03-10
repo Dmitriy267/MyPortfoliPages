@@ -1,0 +1,39 @@
+.main__div{
+    height: 200px;
+        width: 460px;
+        display: flex;
+        align-items: center;
+        margin: 40px;
+}
+
+
+.window__div{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerPages__div{
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.left__button,
+.right__button
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.left__button img,
+.right__button img 
+{
+width: 30px;
+height: 30px;
+}

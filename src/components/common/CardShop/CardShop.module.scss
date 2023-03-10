@@ -1,0 +1,64 @@
+.wrapper__div{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 400px;
+}
+.block__div{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 380px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.up__div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    width: 340px;
+    height: 310px;
+}
+.up__div h3{
+    margin: 0;
+    font-family: 'Inter Medium';
+}
+.up__div img{
+    width: 180px;
+    height: 180px;
+}
+.up__div p{
+    font-family: 'Inter Regular';
+    font-size: 14px;
+}
+.up__div p:first-of-type{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.down__div{
+    display: flex;
+    width: 320px;
+    height: 50px;
+    justify-content: space-between;
+}
+.button{
+    cursor: pointer;
+    border-radius: 7px;
+    background: linear-gradient(90deg, rgba(54,45,196,1) 0%, rgba(43,107,215,1) 17%, rgba(0,142,255,1) 68%);
+    font-family: 'Inter Medium';
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.down__div p{
+    font-family: 'Inter Bold';
+    font-size: 18px;
+}
+.quantity__p{
+    display: none;
+}

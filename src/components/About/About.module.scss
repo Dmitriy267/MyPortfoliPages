@@ -1,8 +1,12 @@
+$bgColor:#faf0f0;
 .about__section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: $bgColor;
+    height: 585px;
 }
+
 .common__div{
     display: flex;
     flex-direction: column;
@@ -33,6 +37,8 @@ color:#4343e0;
         align-items: center;
         justify-content: center;
         width: 768px;
+        height: 585px;
+        background-color: $bgColor;
     }
     .common__div{
         display: flex;

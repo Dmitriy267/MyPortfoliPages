@@ -1,3 +1,4 @@
+$bgColorCard:#fff;
 .wrapper__div{
     display: flex;
     flex-direction: column;
@@ -5,6 +6,7 @@
     border: 2px solid #000;
     border-radius: 10px;
     height: 400px;
+  background-color: $bgColorCard;
 }
 .block__div{
     display: flex;

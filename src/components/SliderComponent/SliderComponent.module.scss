@@ -1,7 +1,10 @@
+$bgColor:#faf0f0;
 .wrapper__section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: $bgColor;
+    height: 410px;
 }
 .item__div{
     display: flex;

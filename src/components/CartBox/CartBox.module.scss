@@ -1,6 +1,10 @@
+$bgColor:#faf0f0;
 .cartBox__section{
     flex-direction: column;
     align-items: center;
+    background-color: $bgColor;
+    height: 100%;
+ 
 }
 .cartBox__section h3{
     font-family: 'Inter SemiBold';
@@ -100,11 +104,19 @@ margin-bottom: 0px;
     font-size: 28px;
 }
 
+.uyt__div{
+    display: flex;
+    margin: 0 0 60px 0;
+}
+
+
 @media screen and (max-width: 768px) {
     .cartBox__section{
         flex-direction: column;
         align-items: center;
         width: 768px;
+        height: 100%;
+        background-color: $bgColor;
     }
     .cartBox__section h3{
         font-family: 'Inter SemiBold';
@@ -208,5 +220,9 @@ margin-bottom: 0px;
         font-size: 28px;
     }
     
+    .uyt__div{
+        display: flex;
+        margin: 0 0 60px 0;
+    }
     
 }

@@ -1,6 +1,5 @@
 .footer{
-    margin-top: 60px;
-    height: 135px;
+    height: 140px;
     background-color: #1c911c;
 }
 .block__div {
@@ -30,7 +29,6 @@ flex-direction: column;
 
 @media screen and (max-width: 768px) {
     .footer{
-        margin-top: 60px;
         height: 135px;
         background-color: #1c911c;
         width: 768px;

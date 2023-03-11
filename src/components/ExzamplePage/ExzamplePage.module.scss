@@ -1,8 +1,10 @@
+$bgColor:#faf0f0;
 .exzample__section{
     flex-direction: column;
     width: 1440px;
     height: auto;
     align-items: center;
+    background-color: $bgColor;
 }
 .exzample__section h3{
 font-family: 'Inter Medium';
@@ -35,6 +37,7 @@ font-family: 'Inter Medium';
         width: 768px;
         height: auto;
         align-items: center;
+        background-color: $bgColor;
     }
     .exzample__section h3{
         font-family: 'Inter Medium';

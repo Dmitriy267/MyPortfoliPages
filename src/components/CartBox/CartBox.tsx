@@ -44,10 +44,12 @@ const CartBox:FC=()=>{
                 })}
             </div>
             <p className={styles.lost__p}>Итого: {totalPrice} рублей</p>
+            <div className={styles.uyt__div}>
             <GroupDiv>
     <Button onClick={handeclick}>Вернуться назад</Button>
     <Button onClick={handeClickExzample}>На главную</Button>
     </GroupDiv>
+     </div>
           
         </section>
         <Footer/>

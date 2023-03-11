@@ -1,7 +1,9 @@
+$bgColor:#faf0f0;
 .registration__section{
     flex-direction: column;
-    height: auto;
+    height: 600px;
     align-items: center;
+    background-color: $bgColor;
 }
 .form{
     width: 500px;
@@ -76,6 +78,8 @@ input[type="submit"] {
       height: auto;
       align-items: center;
       width: 768px;
+      height: 600px;
+      background-color: $bgColor;
   }
   .form{
       width: 500px;
